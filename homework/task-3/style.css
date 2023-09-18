@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: inline-flex;
+    height: 100px;
+    padding: 33px 165px 32px 165px;
+    justify-content: center;
+    align-items: center;
+    gap: 564px;
+    flex-shrink: 0;
+    width: 100vw;
+    position: sticky;
+    background: #E1EDE6;
+}
+
+.cacti{
+    color: #598D66;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-left: 8px;   
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-btns{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.header-btn{
+    color: #2C2D35;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 165px 63px 190px;
+}
+
+.cactus{
+    width: 484px;
+    height: 493px;
+}
+
+.cactus-colection{
+    width: 540px;
+    color: #2C2D35;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 66px */
+    margin-bottom: 10px;
+}
+
+.info{
+    width: 540px;
+    color: #86928B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    margin-bottom: 14px;
+}
+
+.primary-btn{
+    display: inline-flex;
+    height: 65px;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #598D66;
+    font-family: 'Raleway', sans-serif;
+}
+
+.primary-btn-text{
+    color: #598D66;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}

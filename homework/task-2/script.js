@@ -16,11 +16,11 @@ htmlName.innerHTML = `Имя: ${student.name}`
 htmlAge.innerHTML = `Возраст: ${student.age} лет`
 htmlGrades.innerHTML = `Балл: ${student.gradees}`
 
-console.log(typeof tr);
-console.log(typeof string);
-console.log(typeof number);
+console.log(typeof isStudent);
+console.log(typeof name);
+console.log(typeof age);
 console.log(typeof grades);
-console.log(typeof obj);
+console.log(typeof student);
 
 for (let i = 0; i < grades.length; i++) {
     console.log(grades[i]);

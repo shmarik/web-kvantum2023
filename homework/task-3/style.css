@@ -145,8 +145,13 @@ main {
 .catalog-btn {
     display: flex;
     padding: 10px 20px; 
-    border-radius: 20px;
+    border-radius: 22px;
     background: #D4E8D9;
+    color: #2C2D35;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .north {
@@ -216,6 +221,11 @@ main {
     border-radius: 16px;
     border: 1px solid #598D66;  
     margin-top: 16px;
+    color: #598D66;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .cactusi{
@@ -223,4 +233,144 @@ main {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+
+.our-team-frame {
+    display: flex;
+    flex-direction: row;
+    padding: 98px 0px 128px 91px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 34px;
+}
+
+.our-team-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.our-team-heading {
+    color: #2C2D35;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 44px */
+}
+
+.avatars-frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.our-team-text {
+    color: #2C2D35;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    width: 552px;
+}
+
+.avatars-frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+footer{
+    width: 100vw;
+    height: 168px;
+    background: #E1EDE6;
+}
+
+.footer-left {
+    height: 145px;
+    margin-left: 165px;
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.phone-number {
+    color: #2C2D35;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.master {
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.footer-info-frame {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 455px;
+}
+
+.footer-info-block {
+    display: flex;
+    flex-direction: column;
+    height: 145px;
+    padding-top: 23px;
+    gap: 6px;
+}
+
+.footer-info-name {
+    color: #2C2D35;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-info-class {
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.links-frame {
+    display: flex;
+    height: 145px;
+    padding-top: 23px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.icons {
+    gap: 30px;
+}
+
+.links {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: #86928B;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 14.4px */
 }

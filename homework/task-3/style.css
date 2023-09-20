@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
-.header{
+.header {
     display: inline-flex;
     height: 100px;
     padding: 33px 165px 32px 165px;
@@ -19,72 +20,75 @@
     background: #E1EDE6;
 }
 
-.cacti{
+.cacti {
     color: #598D66;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
-    margin-left: 8px;   
+    line-height: normal;
+    margin-left: 8px;
 }
 
-.icon{
+.icon {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header-btns{
+.header-btns {
     display: flex;
     align-items: flex-start;
     gap: 60px;
 }
 
-.header-btn{
+.header-btn {
     color: #2C2D35;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-.general{
+.general {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 64px 165px 63px 190px;
+    gap: 61px;
 }
 
-.cactus{
+.cactus {
     width: 484px;
     height: 493px;
 }
 
-.cactus-colection{
+.cactus-colection {
     width: 540px;
     color: #2C2D35;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
-    line-height: 110%; /* 66px */
+    line-height: 110%;
+    /* 66px */
     margin-bottom: 10px;
 }
 
-.info{
+.info {
     width: 540px;
     color: #86928B;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 27px */
+    line-height: 150%;
+    /* 27px */
     margin-bottom: 14px;
 }
 
-.primary-btn{
+.primary-btn {
     display: inline-flex;
     height: 65px;
     padding: 20px 60px;
@@ -94,19 +98,129 @@
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid #598D66;
-    font-family: 'Raleway', sans-serif;
+
 }
 
-.primary-btn-text{
+.primary-btn-text {
     color: #598D66;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-main{
+main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    width: 1110px;
+}
+
+.catalog-frame {
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.catalog {
+    color: #2C2D35;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    /* 44px */
+}
+
+.catalog-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.catalog-btn {
+    display: flex;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    background: #D4E8D9;
+}
+
+.north {
+    background: #376B44;
+    color: #fff;
+}
+
+.cactus-catalog {
+    margin-top: 30px;
+}
+
+.cactus-block {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 651px;
+    border-radius: 16px;
+    background: #E1EDE6;
+    padding-left: 20px;
+}
+
+.cactus-block-img{
+    width: 310px;
+    height: 422px;  
+    margin: 20px 20px 20px 0px;
+}
+
+.cactus-name {
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.desc-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cactus-desc {
+    color: #2C2D35; 
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cactus-price {
+    color: #598D66; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.to-cart-btn {
+    display: flex;
+    width: 310px;
+    height: 54px;
+    padding: 20px 60px;
     justify-content: center;
+    align-items: center;
+    gap: 6px;   
+    border-radius: 16px;
+    border: 1px solid #598D66;  
+    margin-top: 16px;
+}
+
+.cactusi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }

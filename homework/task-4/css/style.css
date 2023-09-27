@@ -42,7 +42,7 @@ main {
     align-items: center;
 }
 
-input {
+.in {
     width: 560px;
     height: 40px;
     font-size: 20px;
@@ -65,11 +65,15 @@ input {
     margin-top: 50px;
 }
 
-.page-1 {
+.page {
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.page-2 {
+    
 }
 
 .request {
@@ -91,4 +95,52 @@ input {
 
 .nextPageBtn:hover {
     height: 45px;
+}
+
+.progres {
+    font-size: 20px;
+}
+
+.day {
+    width: 220px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.weekPart {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 50px;
+}
+
+.weekDays {
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+    border: solid #fff 1px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.weekDay-container {
+    width: 560px;
+}
+
+.dayRequest {
+    font-size:  60px;
+    text-align: center;
+}
+
+.day-text {
+    font-size: 30px;
+}
+
+.day-inp {
+    width: 30px;
 }
